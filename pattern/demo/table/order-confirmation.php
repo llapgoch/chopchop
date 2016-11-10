@@ -62,14 +62,17 @@
                 tsb-Small-Banana
             </td>
             <td class="a-right">
-                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span></span><br>
+                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span>
+                </span><br>
             </td>
             <td class="a-right">
                 <span class="nobr">Ordered: <strong>1</strong><br></span>
             </td>
             <td class="a-right last">
-                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span></span><br>
-            </td><!--
+                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span>
+                </span><br>
+            </td>
+            <!--
         <th class="a-right"><span class="price">£109.99</span></th>
             -->
         </tr>
@@ -83,14 +86,17 @@
                 tsb-Small-Chocolate
             </td>
             <td class="a-right">
-                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span></span><br>
+                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span>
+                </span><br>
             </td>
             <td class="a-right">
                 <span class="nobr">Ordered: <strong>1</strong><br></span>
             </td>
             <td class="a-right last">
-                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span></span><br>
-            </td><!--
+                <span class="price-excl-tax"><span class="cart-price"><span class="price">£109.99</span></span>
+                </span><br>
+            </td>
+            <!--
         <th class="a-right"><span class="price">£109.99</span></th>
             -->
         </tr>

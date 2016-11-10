@@ -59,7 +59,8 @@
             </td>
             <td class="a-center">
                 1
-            </td><!-- sub total starts here -->
+            </td>
+            <!-- sub total starts here -->
             <td class="a-right last">
                 <span class="cart-price"><span class="price">£109.99</span></span>
             </td>
@@ -75,7 +76,8 @@
             </td>
             <td class="a-center">
                 1
-            </td><!-- sub total starts here -->
+            </td>
+            <!-- sub total starts here -->
             <td class="a-right last">
                 <span class="cart-price"><span class="price">£109.99</span></span>
             </td>

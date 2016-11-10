@@ -32,3 +32,12 @@
 .table--striped {
     @include table--striped;
 }
+
+
+// =============================================
+// Stacked Table
+// =============================================
+
+.table--stacked {
+    @include table--stacked;
+}
