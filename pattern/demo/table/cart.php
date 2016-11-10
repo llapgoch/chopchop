@@ -1,3 +1,6 @@
+<?php /*
+Title: Cart Table
+*/ ?>
 <table id="shopping-cart-table" class="data-table cart-table table--striped">
     <thead>
         <tr class="first last">

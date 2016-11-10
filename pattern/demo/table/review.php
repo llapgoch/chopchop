@@ -1,3 +1,7 @@
+<?php /*
+Title: Reviews Table
+*/ ?>
+
 <table class="data-table table--striped" id="my-reviews-table">
     <colgroup>
         <col width="1">

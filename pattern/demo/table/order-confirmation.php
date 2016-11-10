@@ -1,3 +1,7 @@
+<?php /*
+Title: Order Confirmation Table
+*/ ?>
+
 <table class="data-table table" id="my-orders-table">
     <colgroup>
         <col>
