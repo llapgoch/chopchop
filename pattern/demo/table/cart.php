@@ -1,10 +1,9 @@
 <?php /*
 Title: Cart Table
 */ ?>
-<table id="shopping-cart-table" class="data-table cart-table table--striped">
+<table id="shopping-cart-table" class="data-table cart-table table table--striped table--stacked table--labelled">
     <thead>
         <tr class="first last">
-            <th rowspan="1">&nbsp;</th>
             <th rowspan="1"><span class="nobr">Product Name</span></th>
             <th rowspan="1" class="a-center">Qty</th>
             <th class="a-center" colspan="1">Subtotal</th>
@@ -16,43 +15,27 @@ Title: Cart Table
                 <button type="button" title="Continue Shopping" class="button btn-continue" onclick="setLocation('http://tonu.gareth.dyn.iweb.co.uk/our-products/the-slender-blend.html')"><span><span>Continue Shopping</span></span></button>
                 <button type="submit" name="update_cart_action" value="update_qty" title="Update Shopping Bag" class="button btn-update"><span><span>Update Shopping Bag</span></span></button>
                 <button type="submit" name="update_cart_action" value="empty_cart" title="Empty Shopping Bag" class="button btn-empty" id="empty_cart_button"><span><span>Empty Shopping Bag</span></span></button>
-                <!--[if lt IE 8]>
-                            <input type="hidden" id="update_cart_action_container" />
-                            <script type="text/javascript">
-                            //<![CDATA[
-                                Event.observe(window, 'load', function()
-                                {
-                                    // Internet Explorer (lt 8) does not support value attribute in button elements
-                                    $emptyCartButton = $('empty_cart_button');
-                                    $cartActionContainer = $('update_cart_action_container');
-                                    if ($emptyCartButton && $cartActionContainer) {
-                                        Event.observe($emptyCartButton, 'click', function()
-                                        {
-                                            $emptyCartButton.setAttribute('name', 'update_cart_action_temp');
-                                            $cartActionContainer.setAttribute('name', 'update_cart_action');
-                                            $cartActionContainer.setValue('empty_cart');
-                                        });
-                                    }
 
-                                });
-                            //]]>
-                            </script>
-                            <![endif]-->
             </td>
         </tr>
     </tfoot>
     <tbody>
+        <?php for($i=0;$i<5;$i++) : ?>
         <tr class="first last odd">
-            <td>
-                <a href="http://tonu.gareth.dyn.iweb.co.uk/the-slender-blend.html" title="The Slender Blend-Medium-Banana" class="product-image"><img src="http://tonu.gareth.dyn.iweb.co.uk/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/f/f/fff000.gif" width="100" height="100" alt="The Slender Blend-Medium-Banana"></a>
-            </td>
-            <td>
-                <h4 class="product-name">
-                    <a href="http://tonu.gareth.dyn.iweb.co.uk/the-slender-blend.html">The Slender Blend-Medium-Banana</a>
-                </h4>
-                <span class="cart-price">
-                    <span class="price">£99.99</span>
-                </span>
+            <td class="full-width">
+                <div class="flag flag--gutter">
+                    <div>
+                        <a href="http://tonu.gareth.dyn.iweb.co.uk/the-slender-blend.html" title="The Slender Blend-Medium-Banana" class="product-image"><img src="http://tonu.gareth.dyn.iweb.co.uk/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/f/f/fff000.gif" width="100" height="100" alt="The Slender Blend-Medium-Banana"></a>
+                    </div>
+                    <div>
+                        <h4 class="product-name">
+                            <a href="http://tonu.gareth.dyn.iweb.co.uk/the-slender-blend.html">The Slender Blend-Medium-Banana</a>
+                        </h4>
+                        <span class="cart-price">
+                            <span class="price">£99.99</span>
+                        </span>
+                    </div>
+                </div>
                 <!-- inclusive price starts here -->
             </td>
             <td class="a-center">
@@ -78,11 +61,12 @@ Title: Cart Table
                     title="Delete" class="btn-remove btn-remove2">Delete</a>
             </td>
             <!--Sub total starts here -->
-            <td class="a-right last">
+            <td class="a-right last" data-label="Sub total">
                 <span class="cart-price">
                     <span class="price">£99.99</span>
                 </span>
             </td>
         </tr>
+        <?php endfor; ?>
     </tbody>
 </table>

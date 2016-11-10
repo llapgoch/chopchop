@@ -81,5 +81,49 @@
 // =============================================
 
 @mixin table--stacked {
+    thead {
+        display: none;
+    }
 
+    tr {
+        margin-bottom: spacing(lg);
+        background-color: transparent !important;
+        display: flex;
+        flex-flow: wrap;
+
+        border: 1px solid color(grey);
+
+        > * {
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 160px;
+
+            &.full-width {
+                flex-basis: 100%;
+            }
+        }
+    }
+
+    table,
+    th,
+    td {
+        display: block;
+    }
+}
+
+
+// =============================================
+// Table labelled
+// =============================================
+
+@mixin table--labelled {
+    thead {
+        display: none;
+    }
+    [data-label]:before {
+        content: attr(data-label) ":";
+        display: block;
+        margin-right: 0.1em;
+        font-family: $heading-font-family;
+    }
 }

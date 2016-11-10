@@ -38,6 +38,19 @@
 // Stacked Table
 // =============================================
 
-.table--stacked {
-    @include table--stacked;
+@include breakpoint(max-width screen(md, max)) {
+    .table--stacked {
+        @include table--stacked;
+    }
+}
+
+
+// =============================================
+// Stacked Table
+// =============================================
+
+@include breakpoint(max-width screen(md, max)) {
+    .table--labelled {
+        @include table--labelled;
+    }
 }

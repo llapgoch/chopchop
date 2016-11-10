@@ -1,7 +1,7 @@
 <?php /*
 Title: Checkout Review Table
 */ ?>
-<table class="data-table" id="checkout-review-table">
+<table class="data-table table table--stacked table--labelled" id="checkout-review-table">
     <colgroup>
         <col>
         <col width="1">
@@ -51,39 +51,24 @@ Title: Checkout Review Table
         </tr>
     </tfoot>
     <tbody>
+        <?php for($i=0;$i<5;$i++) : ?>
         <tr class="first odd">
-            <td>
+            <td data-label="Product name">
                 <h3 class="product-name">
                     The Slender Blend-Small-Banana
                 </h3>
             </td>
-            <td class="a-right">
+            <td class="a-right" data-label="Price">
                 <span class="cart-price"><span class="price">£109.99</span></span>
             </td>
-            <td class="a-center">
+            <td class="a-center" data-label="Quantity">
                 1
             </td>
             <!-- sub total starts here -->
-            <td class="a-right last">
+            <td class="a-right last" data-label="Sub total">
                 <span class="cart-price"><span class="price">£109.99</span></span>
             </td>
         </tr>
-        <tr class="last even">
-            <td>
-                <h3 class="product-name">
-                    The Slender Blend-Small-Chocolate
-                </h3>
-            </td>
-            <td class="a-right">
-                <span class="cart-price"><span class="price">£109.99</span></span>
-            </td>
-            <td class="a-center">
-                1
-            </td>
-            <!-- sub total starts here -->
-            <td class="a-right last">
-                <span class="cart-price"><span class="price">£109.99</span></span>
-            </td>
-        </tr>
+        <?php endfor; ?>
     </tbody>
 </table>

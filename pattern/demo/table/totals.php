@@ -12,7 +12,7 @@ Title: Totals Table
             <td style="" class="a-right" colspan="1">
                 <strong>Grand Total</strong>
             </td>
-            <td style="" class="a-right">
+            <td style="" class="a-right" data-labelled="Grand total">
                 <strong><span class="price">£99.99</span></strong>
             </td>
         </tr>
@@ -22,7 +22,7 @@ Title: Totals Table
             <td style="" class="a-right" colspan="1">
                 Subtotal
             </td>
-            <td style="" class="a-right">
+            <td style="" class="a-right" data-labelled="Sub total">
                 <span class="price">£99.99</span>
             </td>
         </tr>

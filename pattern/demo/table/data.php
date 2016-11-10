@@ -2,7 +2,8 @@
 Title: Data Table
 */ ?>
 
-<table class="table table--striped">
+<div class="responsive-table">
+    <table class="table table--striped table--stacked table--labelled">
         <thead>
             <tr>
                 <th>Product</th>
@@ -16,165 +17,22 @@ Title: Data Table
             </tr>
         </thead>
         <tbody>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
+            <?php for($i=0;$i<5;$i++) : ?>
+                <tr>
+                    <td data-label="Product">The Selender Blend</td>
+                    <td data-label="Size">90 Capsules</td>
+                    <td data-label="Flavour">Vanilla Ice Cream</td>
+                    <td data-label="Batch number">123456789</td>
+                    <td data-label="Date of manufacture">23/04/2016</td>
+                    <td data-label="Best before end">23/04/2017</td>
+                    <td data-label="Informed-sport certificate">
+                        <a href="#" class="btn btn--view"><span>VIEW</span></a>
+                    </td>
+                    <td data-label="Protien testing certificate">
+                        <a href="#" class="btn btn--view"><span>VIEW</span></a>
+                    </td>
                 </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                            <tr>
-                    <td>The Selender Blend</td>
-                    <td>90 Capsules</td>
-                    <td>Vanilla Ice Cream</td>
-                    <td>123456789</td>
-                    <td>23/04/2016</td>
-                    <td>23/04/2017</td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                    <td><a href="#" class="btn btn--view">
-                        <svg class="icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/build/img/icons/symbol/svg/sprite.symbol.svg#custom--search"></use>
-                        </svg> <span>VIEW</span></a></td>
-                </tr>
-                    </tbody>
+            <?php endfor; ?>
+        </tbody>
     </table>
+</div>
