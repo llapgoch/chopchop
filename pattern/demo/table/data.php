@@ -1,3 +1,7 @@
+<?php /*
+Title: Data Table
+*/ ?>
+
 <table class="table table--striped">
         <thead>
             <tr>

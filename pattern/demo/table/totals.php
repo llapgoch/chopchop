@@ -1,3 +1,7 @@
+<?php /*
+Title: Totals Table
+*/ ?>
+
 <table id="shopping-cart-totals-table" class="table table--striped">
     <colgroup>
         <col>

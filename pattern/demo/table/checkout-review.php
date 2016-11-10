@@ -1,3 +1,6 @@
+<?php /*
+Title: Checkout Review Table
+*/ ?>
 <table class="data-table" id="checkout-review-table">
     <colgroup>
         <col>

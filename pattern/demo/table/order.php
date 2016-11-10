@@ -1,3 +1,7 @@
+<?php /*
+Title: Orders Table
+*/ ?>
+
 <table class="data-table" id="my-orders-table">
     <colgroup><col width="1">
     <col width="1">
