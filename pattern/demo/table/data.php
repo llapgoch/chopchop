@@ -3,7 +3,7 @@ Title: Data Table
 */ ?>
 
 <div class="responsive-table">
-    <table class="table table--striped table--stacked table--labelled">
+    <table class="table table--striped">
         <thead>
             <tr>
                 <th>Product</th>

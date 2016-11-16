@@ -11,15 +11,6 @@
     td {
         white-space: nowrap;
     }
-
-    tbody {
-        background:
-            radial-gradient(ellipse at left, rgba(0, 0, 0, 0.2) 0%,
-            rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(ellipse at right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
-        background-size: 10px 100%, 10px 100%;
-        background-attachment: scroll, scroll;
-        background-repeat: no-repeat;
-    }
 }
 
 @include breakpoint(max-width screen(sm)) {

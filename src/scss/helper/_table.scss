@@ -8,7 +8,7 @@
         vertical-align: top;
     }
 
-    td {
+    tbody td {
         border-top: 1px solid color(grey,light);
     }
 
@@ -84,22 +84,33 @@
     thead {
         display: none;
     }
-
-    tr {
+    
+    tbody tr {
         margin-bottom: spacing(lg);
+        border: 1px solid color(grey);
+    }
+    
+    tr {
+        
         background-color: transparent !important;
         display: flex;
         flex-flow: wrap;
 
-        border: 1px solid color(grey);
-
         > * {
             flex-grow: 1;
             flex-shrink: 0;
-            flex-basis: 160px;
-
+            //flex-basis: 10em;
+            
             &.full-width {
                 flex-basis: 100%;
+            }
+            
+            &.half-width {
+                flex-basis: 50%;
+            }
+            
+            &.quarter-width {
+                flex-basis: 25%;
             }
         }
     }
@@ -125,5 +136,6 @@
         display: block;
         margin-right: 0.1em;
         font-family: $heading-font-family;
+        font-size: $font-size-sm;
     }
 }

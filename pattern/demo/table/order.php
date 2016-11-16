@@ -3,14 +3,6 @@ Title: Orders Table
 */ ?>
 
 <table class="data-table table table--stacked table--labelled" id="my-orders-table">
-    <colgroup>
-        <col width="1">
-        <col width="1">
-        <col>
-        <col width="1">
-        <col width="1">
-        <col width="1">
-    </colgroup>
     <thead>
         <tr class="first last">
             <th>Order #</th>
@@ -29,11 +21,9 @@ Title: Orders Table
                 <td data-label="Send To">Gareth Joyce</td>
                 <td data-label="Order Total"><span class="price">£229.98</span></td>
                 <td data-label="Order Status"><em>Pending</em></td>
-                <td class="a-center last">
-                    <span class="nobr"><a href="http://tonu.gareth.dyn.iweb.co.uk/sales/order/view/order_id/5/">View Order</a>
-                    <span class="separator">|</span> <a href="http://tonu.gareth.dyn.iweb.co.uk/sales/order/reorder/order_id/5/"
-                        class="link-reorder">Reorder</a>
-                    </span>
+                <td class="a-center last u-text-right full-width">
+                    <a href="http://tonu.gareth.dyn.iweb.co.uk/sales/order/view/order_id/5/" class="button btn">View Order</a>
+                    <a href="http://tonu.gareth.dyn.iweb.co.uk/sales/order/reorder/order_id/5/" class="button btn link-reorder">Reorder</a>
                 </td>
             </tr>
         <?php endfor; ?>

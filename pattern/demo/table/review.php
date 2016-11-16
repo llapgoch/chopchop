@@ -22,7 +22,7 @@ Title: Reviews Table
             <td data-label="Date">
                 <span class="nobr">09/11/2016</span>
             </td>
-            <td data-label="Product name">
+            <td class="full-width">
                 <h4 class="product-name">
                     <a href="http://tonu.gareth.dyn.iweb.co.uk/catalog/product/view/id/2">The Slender Blend</a>
                 </h4>
@@ -33,7 +33,7 @@ Title: Reviews Table
                 </div>
             </td>
             <td class="last" data-label="Review">
-                This is a super great product, i'm more than ha...
+                <p class="u-ellipsis">This is a super great product, i'm more than ha...</p>
             </td>
         </tr>
     </tbody>
